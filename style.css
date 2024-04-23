@@ -1,0 +1,1088 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/*DEFAULT CSS*/
+* {
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5% /* makes 1rem 10px */
+}
+body {
+    font-size: 1.6em; /* default font of 16px */
+    font-family: 'Verdana', 'Arial', sans-serif;
+    line-height: 1.3;
+    color: #373737;
+}
+/* fonts */
+h1 { font-size: 3rem }
+h2 { font-size: 2.4rem }
+h3 { font-size: 2rem }
+h4, li, label, input, textarea, select, p {
+    font-size: 1.8rem;
+}
+h5 { font-size: 1.6rem }
+h6 { font-size: 1.4rem }
+ol, ul { padding-left: 2em }
+a {
+    text-decoration: underline;
+    color: blue;
+}
+a:hover { color: pink }
+a:focus { color: orange }
+a:active { color: red }
+a:visited { color: purple }
+
+
+
+/*END DEFAULT CSS*/
+
+
+/*RESPONSIVE CODE AREA**************************************************************************/
+
+
+/*MEDIA QUERY BREAKPOINT*/
+
+/* For screens smaller than 576px */
+@media (max-width: 575.98px) {
+  /* CSS rules for small screens */
+}
+
+/* For screens between 576px and 767px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS rules for medium screens */
+}
+
+/* For screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS rules for large screens */
+}
+
+/* For screens between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS rules for extra-large screens */
+}
+
+/* For screens larger than 1200px */
+@media (min-width: 1200px) {
+  /* CSS rules for extra-extra-large screens */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*END RESPONSIVE CODE AREA*********************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MAIN WEBPAGE CSS*/
+.float-left{
+	float:left;
+	
+	
+}
+
+
+.float-right{
+	float:right;
+	
+	
+	
+}
+
+.full-webpage-wrapper{
+	width:100%;
+	height:auto;
+	
+	
+}
+
+
+.sodeshmart-fullpage-wrapper{
+	width:100%;
+	height:auto;
+	
+	
+	
+}
+
+
+.sodesmart-fullpage{
+			width:100%;
+			height:auto;
+
+
+
+
+
+}
+
+
+.upper-head{
+	width:100%;
+	height:35px;
+	background-color:#5ed30e;
+	padding:5px;
+	color:#ffff;
+	font-weight:bold;
+	
+	
+}
+
+
+.upper-head-wrapper{
+	width:1365px;
+	height:25px;
+	margin:0 auto;
+	
+	
+	
+}
+
+.upper-head-left{
+	width:390px;
+	height:25px;
+	
+	
+	
+}
+
+
+.upper-head-right{
+	width:400px;
+	height:25px;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-navigation{
+	width:100%;
+	height:160px;
+	position:static;
+	margin-bottom:5px;
+	background-color:#ffff;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	
+}
+
+
+.header-full-wrapper{
+	width:100%;
+	height:90px;
+	margin:0 auto;
+	
+	
+	
+	-webkit-box-shadow: -5px 15px 199px -19px rgba(58,201,14,0.7);
+-moz-box-shadow: -5px 15px 199px -19px rgba(58,201,14,0.7);
+box-shadow: -5px 15px 199px -19px rgba(58,201,14,0.7);
+	
+	
+}
+
+
+.header-main{
+	width:1365px;
+	height:90px;
+	margin:0 auto;
+	
+	
+
+	
+	
+	
+	
+	
+}
+
+
+
+.header-left{
+	width:552.5px;
+	height:90px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	
+	
+	
+	
+}
+
+
+.header-right{
+	width:812.5px;
+	height:90px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:left;
+	
+	
+	
+	
+}
+
+.navigation-header-full{
+	width:100%;
+	height:70px;
+	background-color:#5ed30e;
+	
+	
+	
+}
+
+.navigation-header-main-wrapper{
+	width:1365px;
+	height:70px;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+.navigation-main{
+	width:700px;
+	height:70px;
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+nav {
+  margin-top:35px;
+  height:30px;
+  width:400px;
+  display: table;
+  transform: translateY(-50%);
+}
+
+nav a {
+ 
+  width: 33.333%;
+  display: table-cell;
+  text-align: left;
+  color: #ffff;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 0.2s ease color;
+}
+
+nav a:before,
+nav a:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.2s ease transform;
+}
+
+nav a:before {
+  top: 0;
+  left: 10px;
+  width: 6px;
+  height: 6px;
+}
+
+nav a:after {
+  top: 5px;
+  left: 18px;
+  width: 4px;
+  height: 4px;
+}
+
+nav a:nth-child(1):before {
+  background-color: yellow;
+}
+
+nav a:nth-child(1):after {
+  background-color: red;
+}
+
+nav a:nth-child(2):before {
+	left:15%;
+  background-color: #00e2ff;
+}
+
+nav a:nth-child(2):after {
+	left:16%;
+  background-color: #89ff00;
+}
+
+nav a:nth-child(3):before {
+	left:30%;
+  background-color: yellow;
+}
+
+nav a:nth-child(3):after {
+	left:31%;
+  background-color: purple;
+}
+
+nav a:nth-child(4):after {
+	left:50%;
+  background-color: #00e2ff;
+}
+
+nav a:nth-child(4):after {
+	left:50%;
+  background-color: #89ff00;
+}
+
+nav a:nth-child(5):after {
+	left:62%;
+  background-color: purple;
+}
+
+nav a:nth-child(5):after {
+	left:63%;
+  background-color: palevioletred;
+}
+
+nav a:nth-child(6):after {
+  background-color: #00e2ff;
+}
+
+nav a:nth-child(6):after {
+  background-color: #89ff00;
+}
+
+
+
+
+
+
+#indicator {
+  position: absolute;
+  left: 3%;
+  bottom: 0;
+  width: 50px;
+  height: 5px;
+  background:linear-gradient(130deg, yellow, red);
+  border-radius: 5px;
+  transition: 0.2s ease left;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+nav a:hover:before,
+nav a:hover:after {
+  transform: scale(1);
+}
+
+nav a:nth-child(1):hover ~ #indicator {
+  left: 3%;
+  background: linear-gradient(130deg, yellow, red);
+}
+
+nav a:nth-child(2):hover ~ #indicator {
+  left: 17%;
+  background: linear-gradient(130deg, #00e2ff, #89ff00);
+}
+
+nav a:nth-child(3):hover ~ #indicator {
+  left:33%;
+  background: linear-gradient(130deg, purple, palevioletred);
+}
+
+nav a:nth-child(4):hover ~ #indicator {
+  left: 51%;
+  background: linear-gradient(130deg, #00e2ff, #89ff00);
+}
+
+nav a:nth-child(5):hover ~ #indicator {
+  left: 65%;
+ background: linear-gradient(130deg, purple, palevioletred);
+}
+
+nav a:nth-child(6):hover ~ #indicator {
+  left: 85%;
+ background: linear-gradient(130deg, purple, palevioletred);
+}
+
+
+
+
+.header-nav-right-search{
+	width:665px;
+	height:70px;
+	
+	
+	
+	
+}
+
+
+.header-nav-right-search-content{
+	width:400px;
+	height:35px;
+	margin-top:15px;
+	
+	
+	
+	
+}
+
+/* Styles for the search container */
+.search-container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+/* Styles for the search bar */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid green;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+
+
+
+
+/* Styles for the search button */
+.search-button {
+  position: absolute;
+  top: 0.2px;
+  right: 0.5px;
+  padding: 11.4px 10px;
+  border: none;
+  background-color:green; /* Change the background color as needed */
+  color: #ffff;
+  font-weight:bold;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for the search icon inside the button */
+.search-button i {
+  font-size: 16px;
+}
+
+/* Hover effect for the button */
+.search-button:hover {
+  background-color: #65c22b; /* Darker shade of the original color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-main{
+	width:1365px;
+	height:480px;
+	overflow:hidden;
+	
+	
+	
+	
+	
+}
+
+
+.full-product-div-wrapper{
+	width:auto;
+	height:auto;
+	
+}
+
+
+
+.product-main{
+	width:1365px;
+	height:auto;
+	border:1 px solid green;
+	
+	
+	
+	
+	
+	
+}
+
+
+.products-all{
+	width:1000px;
+	height:auto;
+	margin:80px auto;
+	
+	
+	
+	
+	
+}
+
+
+.product-wrapper{
+	width:1300px;
+	height:auto;
+	margin-top:20px auto;
+	
+}
+
+
+
+.main-product-div{
+	width:1300px;
+	height:450px;
+	
+	
+	
+	
+}
+
+
+.product-cart{
+	width:298px;
+	height:450px;
+	background-color:white;
+	padding:2px;
+	-webkit-box-shadow: 10px 11px 9px -10px rgba(47,237,88,1);
+-moz-box-shadow: 10px 11px 9px -10px rgba(47,237,88,1);
+box-shadow: 10px 11px 9px -10px rgba(47,237,88,1);
+	
+	
+	
+	
+}
+
+.product-image{
+	width:298px;
+	height:298px;
+	overflow:hidden;
+	
+	
+	
+	
+	
+}
+
+
+
+.product-des{
+	width:250px;
+	height:50px;
+	
+	margin-top:5px;
+	font-weight:bold;
+	font-size:15px;
+	padding:5px;
+	
+	
+	
+}
+
+
+.product-price{
+	width:250px;
+	height:30px;
+	color:green;
+	margin-top:5px;
+	text-align:center;
+	font-weight:bold;
+	
+	
+	
+	
+}
+
+.product-add-cart{
+	width:147px;
+	height:40px;
+	float:left;
+	background-color:yellow;
+	margin-top:18px;
+	color:green;
+	font-weight:bold;
+	text-align:center;
+	padding:5px;
+	
+	
+	
+}
+
+
+.product-details{
+	width:145px;
+	height:40px;
+	float:right;
+	color:#ffff;
+	font-weight:bold;
+	text-align:center;
+	padding:5px;
+	background-color:limegreen;
+	margin-top:18px;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+.margin-between-product-cart{
+	margin-left:33.33px;
+	
+	
+	
+	
+}
+
+
+.ad-section-wrapper{
+	width:1365px;
+	height:auto;
+	
+	
+	
+}
+
+
+
+
+
+
+.first-ad-section{
+	width:1365px;
+	height:auto;
+	margin-top:100px;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+.ad-head{
+	width:1000px;
+	height:70px;
+	margin:0 auto;
+	
+	
+	
+}
+
+
+
+.main-ad{
+	width:1365px;
+	height:480px;
+	
+	
+	
+	
+}
+
+
+
+
+
+
+.service-promotion-wrapper{
+	margin-top:40px;
+	width:1365px;
+	height:400px;
+	
+	
+	
+	
+	
+	
+}
+
+
+
+.service-promotion-main{
+	width:1300px;
+	height:330px;
+	margin:20px auto;
+	
+	
+	
+	
+}
+
+
+.service-initial{
+	width:410px;
+	height:330px;
+	padding:25px;
+	
+	
+	
+}
+
+
+.service-initial-margin{
+	margin-left:33.33px;
+	
+	
+	
+}
+
+
+.about-ourself{
+	width:1300px;
+	margin:150px auto;
+	height:200px;
+	border:1px solid green;
+	padding:10px;
+	
+	
+	
+	
+	
+	
+}
+
+#circle { 
+   width: 150px;
+   height: 150px;
+   background:none; 
+   -moz-border-radius: 140px; 
+   -webkit-border-radius: 140px; 
+   border-radius: 140px;
+}
+
+.customer-review-wrapper{
+	width:1365px;
+	height:500px;
+	margin-top:150px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	
+	
+}
+
+.customer-main{
+	width:1200px;
+	height:400px;
+	margin:0 auto;
+
+	
+	
+	
+	
+}
+
+.customer-reviewer-img{
+	width:150px;
+	height:150px;
+	margin:0 auto;
+	overflow: hidden;
+	border:1px solid green;
+	position:sticky;
+	z-index:-1;
+	
+	-webkit-box-shadow: 11px -6px 20px -10px rgba(32,168,9,1);
+-moz-box-shadow: 11px -6px 20px -10px rgba(32,168,9,1);
+box-shadow: 11px -6px 20px -10px rgba(32,168,9,1);
+	
+	
+	
+	
+}
+
+
+
+.customer-reviewer-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the image covers the entire circular area */
+}
+
+
+.customer-reviewer-speech{
+	
+	width:300px;
+	height:200px;
+	border:1px solid green;
+	border-radius:10px;
+	margin-top:-30px;
+	padding:35px 5px 5px 5px;
+	font-style:italic;
+	overflow:hidden;
+	
+	
+}
+
+.customer-reviewer-name{
+	width:150px;
+	height:35px;
+	margin:-20px auto;
+	background-color:green;
+	border-radius:5px;
+	text-align:center;
+	padding:5px;
+	position:fixed:
+	z-index:3;
+	
+	
+	
+	
+}
+
+
+
+
+
+.footer-main{
+   width:100%;
+   height:450px;
+   background-color:#143b0f;
+   margin-top:200px;
+   padding:20px;
+   -webkit-box-shadow: 0px -1px 300px 3px rgba(110,255,105,1);
+-moz-box-shadow: 0px -1px 300px 3px rgba(110,255,105,1);
+box-shadow: 0px -1px 300px 3px rgba(110,255,105,1);
+   	
+	
+	
+	
+	
+}
+
+
+.foot-div-wrapper{
+	margin:0 auto;
+	width:1365px;
+	height:420px;
+	
+	
+	
+	
+}
+
+
+
+
+
+.foot-div-initial{
+	width:300px;
+	height:420px;
+	text-align:center;
+	
+	
+	
+	
+}
+
+.div-in-footer{
+	margin-left:100px;
+	
+	
+}
+
+.foot-menu{
+	color:#ffff;
+	text-align:left;
+	margin-top:40px;
+	margin-left:100px;
+	
+	
+	
+}
+
+
+.foot-menu ul{
+	list-style:none;
+	
+	
+}
+
+
+.foot-menu ul li{
+	width:200px;
+	padding-right:20px;
+	
+}
+
+.foot-menu ul li a{
+	text-decoration:none;
+	color:#ffff;
+	
+	
+	
+}
+
+.foot-menu ul li a:hover{
+	background-color:#ffff;
+	color:green;
+	
+	
+	
+}
+
+
+
+
+/*RESPONSIVE----------------------------------------------------------------*/
+
+/* Font Sizes and Spacing */
+@media only screen and (max-width: 767.98px) {
+  /* Adjust font sizes and spacing for smaller screens */
+  html {
+    font-size: 50%; /* Adjust the base font size for smaller screens */
+  }
+  /* Adjust margins, paddings, and font sizes for smaller screens */
+  body {
+    font-size: 1.4em;
+  }
+  /* Adjust specific elements like headers, paragraphs, etc. */
+  h1 { font-size: 2.5rem }
+  h2 { font-size: 2rem }
+  h3 { font-size: 1.8rem }
+  h4, li, label, input, textarea, select, p {
+    font-size: 1.6rem;
+  }
+  /* Adjust spacing, margins, and paddings for smaller screens */
+  /* Example: Reduce padding or margin for elements */
+}
+
+/* Layout and Positioning */
+@media only screen and (max-width: 991.98px) {
+  /* Adjust layout and positioning for medium-sized screens */
+  /* Example: Adjust the width or position of elements */
+}
+
+/* Image Sizes */
+@media only screen and (max-width: 1199.98px) {
+  /* Adjust image sizes for large screens */
+  /* Example: Set max-width: 100% to make images responsive */
+}
+
+/* Navigation and Menu */
+@media only screen and (max-width: 575.98px) {
+  /* Adjust navigation for extra small screens */
+  /* Example: Implement a hamburger menu or adjust navigation layout */
+}
+
+/* Form Inputs and Buttons */
+/* Add specific styles for form inputs and buttons for better usability on smaller screens */
+
+/* Media Queries for Other Screen Sizes */
+/* Add more media queries as needed for specific adjustments */
